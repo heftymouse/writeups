@@ -12,3 +12,4 @@ setInterval(() => {
     document.forms[0].requestSubmit(document.querySelector("#sub"))
 }, 300)
 ```
+This is a 'quick and dirty' solution that requires stopping the code with `clearInterval` as soon as the flag is obtained, and looking through the network request log to find the response with the flag.

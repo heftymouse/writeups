@@ -1,6 +1,6 @@
 # Hidden Byte
 
-This is a simple buffer overflow. The binary has a 44 character buffer, and the next variable needs to be overwritten with `0xDEADBEEF` to return the flag.
+This is a simple buffer overflow. The program has a 44 character buffer, and the next variable needs to be overwritten with `0xDEADBEEF` to return the flag.
 
 ```py
 from pwn import *

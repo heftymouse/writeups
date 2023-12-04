@@ -126,4 +126,4 @@ with open('page.enc', 'rb') as file:
     e = AES.new(b"EL3CTRICBYTEKEY!", AES.MODE_ECB)
     print(e.decrypt(data))
 ```
-This gives us an HTML document with the flag in Base64.
+This gives us an HTML document containing the flag in Base64.
