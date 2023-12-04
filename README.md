@@ -1,2 +1,2 @@
 # writeups
-CTF writeups
+CTF writeups. Enjoy!
